@@ -5,4 +5,5 @@ For validation to work you need to these things correctly:
 * In all of the inputs you need to input something. 
 * For email input, your email needs to be correctly written (for example: samedskulj@yahoo.com). This has been done and verified correctly using Regex
 * For last two inputs, password and password check, the password you have entered in the first input called "password", you need to also input the same password in "password check"
-#
+# How do you know if it worked?
+* If you have done everything correctly, you will receive alert after 1 seconds which say: "Uspijesno ste napravili account"
