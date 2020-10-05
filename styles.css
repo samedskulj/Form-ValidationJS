@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+*
+{
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #0abde3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+/* Container gdje je sve sadrzano od forme do buttona */
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #f7f7f7;
+    border-bottom: 1px;
+    padding: 20px 40px;
+}
+.header h2 {
+    margin: 0;
+}
+
+.form {
+    padding: 30px 40px;
+}
+/* Urednenje diva za forme */
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+}
+/* --------------- */
+
+/* Dodane klase success i error kako bi u JS-u uredili prikazivanje errora */
+.form-control.success input {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color: #e74c3c;
+}
+/* ------------ */
+
+/* Div za input i ikonice i prikazivanje errora */
+.form-control i { 
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+    border-color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    border-color: #e74c3c;
+    visibility: visible;
+}
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+}
+.form button {
+    background-color: #ee5253;
+    border: 2px solid #ee5253;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+
+}
+/* ---------------- */
