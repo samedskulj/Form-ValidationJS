@@ -8,4 +8,4 @@ For validation to work you need to these things correctly:
 # How do you know if it worked?
 * If you have done everything correctly, you will receive alert after 1 seconds which says: "Uspijesno ste napravili account"
 #
-[PREVIEW](https://samedskulj.github.io/Form-ValidationJS/)
+[PREVIEW](https://samedskulj.github.io/Form-ValidationJS-client-side/)
