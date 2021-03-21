@@ -1,4 +1,4 @@
-![](https://giphy.com/gifs/sIojd7Rgqkt85usG3i/html5)
+![](https://media.giphy.com/media/sIojd7Rgqkt85usG3i/giphy.gif)
 
 
 # Form-ValidationJS
