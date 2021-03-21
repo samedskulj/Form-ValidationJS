@@ -1,3 +1,6 @@
+![](https://giphy.com/gifs/sIojd7Rgqkt85usG3i/html5)
+
+
 # Form-ValidationJS
 Form validation made using only HTML, CSS and Vanilla JS
 # How does it work
